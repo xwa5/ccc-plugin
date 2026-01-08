@@ -32,17 +32,17 @@ baidu-ccc-dev --version
 
 ```bash
 # 步骤 1：添加 Marketplace
-/plugin marketplace add <your-org>/ccc-plugin
+/plugin marketplace add xwa5/ccc-plugin
 
 # 步骤 2：安装插件
-/plugin install baidu-ccc@<your-org>-ccc-plugin
+/plugin install baidu-ccc@xwa5-ccc-plugin
 ```
 
 ### 方式 2: 本地安装（开发测试）
 
 ```bash
 # 步骤 1：克隆仓库到本地
-git clone <repo-url>
+git clone https://github.com/xwa5/ccc-plugin.git
 cd ccc-plugin
 
 # 步骤 2：添加本地 Marketplace
@@ -59,10 +59,10 @@ cp -r ccc-plugin ~/.claude/plugins/baidu-ccc
 
 ```bash
 # 步骤 1：直接添加 Git 仓库作为 Marketplace
-/plugin marketplace add https://github.com/<your-org>/ccc-plugin.git
+/plugin marketplace add https://github.com/xwa5/ccc-plugin.git
 
 # 步骤 2：安装插件
-/plugin install baidu-ccc@<your-org>-ccc-plugin
+/plugin install baidu-ccc@xwa5-ccc-plugin
 ```
 
 ## ✅ 验证安装

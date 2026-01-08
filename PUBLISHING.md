@@ -48,7 +48,7 @@ cd /Users/mengxinliu/Documents/ccc-plugin
 git init
 git add .
 git commit -m "Initial commit: Baidu CCC Plugin v1.0.0"
-git remote add origin https://github.com/<your-org>/ccc-plugin.git
+git remote add origin https://github.com/xwa5/ccc-plugin.git
 git push -u origin main
 
 # 创建标签
@@ -58,8 +58,8 @@ git push origin v1.0.0
 
 **用户安装方式**：
 ```bash
-/plugin marketplace add <your-org>/ccc-plugin
-/plugin install baidu-ccc@<your-org>-ccc-plugin
+/plugin marketplace add xwa5/ccc-plugin
+/plugin install baidu-ccc@xwa5-ccc-plugin
 ```
 
 ### 方式 2: 本地分享
